@@ -1,0 +1,567 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#my{
+zoom: 80%;
+}
+
+%body {
+ % font-family: sans-serif;
+  %background-color: #FFFFFF;
+  %color: white;
+  %letter-spacing: 2px;
+%}
+
+p {
+  line-height: 1.5;
+  opacity: 0.7;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+.skillsbar {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.skillsbar .html {width: 90%; background-color: #2573A3;}
+.skillsbar .css {width: 80%; background-color: #2A80B9;}
+.skillsbar .js {width: 70%; background-color: #569AC7;}
+.skillsbar .php {width: 60%; background-color: #7EB4D6;}
+.skillsbar .java {width: 50%; background-color: #A7CDE2;}
+.skillsbar .python {width: 40%; background-color: #D4E6F3;}
+
+
+
+.title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: -50px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.time-line-AboutMe {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Education {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Experience {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Teaching {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Publication {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Projects {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Honors {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Skills {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-AboutMe .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Education .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Experience .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Teaching .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Publication .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Projects .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Honors .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Skills .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-AboutMe .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 62%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Education .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 75%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Experience .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 88%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Teaching .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 63%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Publication .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 63%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Projects .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 75%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Honors .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 78%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Skills .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 65%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-AboutMe .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Education .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Experience .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Teaching .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Publication .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Projects .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Honors .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Skills .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-AboutMe .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #FE501F;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Education .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #FE7902;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Experience .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #FDA000;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Teaching .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #43B94F;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Publication .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #01AE4F;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Projects .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #63AE01;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Honors .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #A3AE01;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Skills .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #AE7A01;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-AboutMe .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Education .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Experience .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Teaching .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Publication .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Projects .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Honors .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Skills .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-AboutMe .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Education .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Experience .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Teaching .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Publication .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Projects .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Honors .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Skills .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-AboutMe .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Education .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Experience .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Teaching .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Publication .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Projects .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Honors .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Skills .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=index.css.map */

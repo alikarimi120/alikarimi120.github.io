@@ -5,7 +5,7 @@
           box-sizing: border-box;
 }
 #my{
-zoom: 80%;
+zoom: 100%;
 }
 
 %body {
@@ -15,6 +15,15 @@ zoom: 80%;
   %letter-spacing: 2px;
 %}
 
+body{
+    %background-color: #2f3331;
+    color: black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
 p {
   line-height: 1.5;
   opacity: 0.7;
@@ -22,21 +31,90 @@ p {
   font-weight: 300;
 }
 
-
-.skillsbar {
-	text-align: right;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	color: white;
+.container {
+    width: 80%;
+    background-color: #F2F3F7;
+    border-radius: 25px
 }
 
-.skillsbar .html {width: 90%; background-color: #2573A3;}
-.skillsbar .css {width: 80%; background-color: #2A80B9;}
-.skillsbar .js {width: 70%; background-color: #569AC7;}
-.skillsbar .php {width: 60%; background-color: #7EB4D6;}
-.skillsbar .java {width: 50%; background-color: #A7CDE2;}
-.skillsbar .python {width: 40%; background-color: #D4E6F3;}
+.skillsBar {
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: black;
+    border-radius: 25px
+}
 
+
+.skillsBar .html {
+    width: 90%;
+    background-color: #2573A3;
+}
+
+.skillsBar .css {
+    width: 80%;
+    background-color: #2A80B9;
+}
+
+.skillsBar .js {
+    width: 65%;
+    background-color: #569AC7;
+}
+
+.skillsBar .web {
+    width: 85%;
+    background-color: #7EB4D6;
+}
+
+.skillsBar .gr {
+    width: 23%;
+    background-color: #A7CDE2;
+}
+
+.skillsBar .dm {
+    width: 48%;
+    background-color: #D4E6F3;
+}
+
+.skillsBar .percentage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.skillsBar .reading{
+    width: 90%;
+    background-color: #CB4337;
+}
+
+.skillsBar .speaking{
+    width: 85%;
+    background-color: #EC7064;
+}
+
+.skillsBar .listening{
+    width: 80%;
+    background-color: #E94C3D;
+}
+
+.skillsBar .writing{
+    width: 48%;
+    background-color: #F1968B;
+}
+
+.skillsBar .verbalReasoning{
+    width: 90%;
+    background-color: #D68A12;
+}
+
+.skillsBar .analyticalWriting{
+    width: 80%;
+    background-color: #F39C11;
+}
+.skillsBar .quantitativeReasoning{
+    width: 85%;
+    background-color: #F7AF41;
+}
 
 
 .title-container {
@@ -88,6 +166,11 @@ p {
 }
 
 .time-line-Skills {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-ContactMe {
   max-width: 1000px;
   color: #000000;
 }
@@ -155,6 +238,13 @@ p {
   border-radius: 0 8px 8px 0;
   padding: 5px 0;
 }
+.time-line-ContactMe .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
 
 .time-line-AboutMe .time-line-body:after {
   content: '';
@@ -189,7 +279,7 @@ p {
 .time-line-Teaching .time-line-body:after {
   content: '';
   width: 4px;
-  height: 63%;
+  height: 65%;
   background-color: #C7C7C7;
   position: absolute;
   left: -16px;
@@ -199,7 +289,7 @@ p {
 .time-line-Publication .time-line-body:after {
   content: '';
   width: 4px;
-  height: 63%;
+  height: 65%;
   background-color: #C7C7C7;
   position: absolute;
   left: -16px;
@@ -227,6 +317,15 @@ p {
 }
 
 .time-line-Skills .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 80%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+.time-line-ContactMe .time-line-body:after {
   content: '';
   width: 4px;
   height: 65%;
@@ -265,6 +364,9 @@ p {
 }
 
 .time-line-Skills .time-line-body .time-line-item {
+  position: relative;
+}
+.time-line-ContactMe .time-line-body .time-line-item {
   position: relative;
 }
 
@@ -371,6 +473,18 @@ p {
   top: 4px;
   z-index: 9;
 }
+.time-line-ContactMe .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #AE5601;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
 
 .time-line-AboutMe .time-line-body .time-line-item .time {
   position: absolute;
@@ -436,6 +550,14 @@ p {
 }
 
 .time-line-Skills .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+.time-line-ContactMe .time-line-body .time-line-item .time {
   position: absolute;
   color: #000000;
   right: 20px;
@@ -515,6 +637,14 @@ p {
   color: #000000;
 
 }
+.time-line-ContactMe .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
 
 .time-line-AboutMe .time-line-body .time-line-item .content .title {
   font-weight:1 500;
@@ -559,6 +689,11 @@ p {
 }
 
 .time-line-Skills .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+.time-line-ContactMe .time-line-body .time-line-item .content .title {
   font-weight:1 500;
   margin-bottom: 7px;
   color: #000000;

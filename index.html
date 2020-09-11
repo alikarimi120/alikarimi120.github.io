@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <title>Ali Karimi</title>
-        <meta name="description" content="">
+		<meta content="" name="keywords">
+		<meta content="" name="description">
+
         <!-- 
     	Volton Template
     	http://www.templatemo.com/tm-441-volton
         -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/font-awesome.css">
@@ -38,6 +34,19 @@
 	<!--===============================================================================================-->
 		<link rel="stylesheet" type="text/css" href="css/util.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">	
+		
+		<link rel="stylesheet" href="css/animate.css">
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+		<!-- Libraries CSS Files -->
+		<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="lib/animate/animate.min.css" rel="stylesheet">
+		<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+		<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+		<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
 		<style>
 		table {
 		  border-collapse: collapse;
@@ -52,650 +61,678 @@
 		}
 
 		tr:nth-child(even){background-color: #f2f2f2}
+		<script src="js/wow.min.js"></script>
+		  <script>
+		  new WOW().init();
+		  </script>
 		</style>		
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    
-        <div class="responsive-header visible-xs visible-sm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="top-section">
-                            <div class="profile-image">
-                                <img src="img/profile.jpg" alt="Volton">
-                            </div>
-                            <div class="profile-content">
-                                <h3 class="profile-title">Ali Karimi</h3>
-                                <p class="profile-description">Computer Science MS.c Student</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
-                <div class="main-navigation responsive-menu">
-                    <ul class="navigation">
-                    <li><a href="#top"><i class="fa fa-globe"></i>Welcome</a></li>
-                    <li><a href="#about"><i class="fa fa-pencil"></i>About Me</a></li>
-					<li><a href="#education"><i class="fa fa-university"></i>Education</a></li>
-					<li><a href="#experience"><i class="fa fa-laptop"></i>Expericence</a></li>
-					<li><a href="#teaching"><i class="fa fa-graduation-cap"></i>Teaching</a></li>
-					<li><a href="#publication"><i class="fa fa-newspaper-o"></i>Publication</a></li>
-                    <li><a href="#projects"><i class="fa fa-paperclip"></i>Projects</a></li>
-                    <li><a href="#honors"><i class="fa fa-trophy"></i>Honors and Awards</a></li>
-					<li><a href="#skills"><i class="fa fa-wrench"></i>Skills</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
-        <!-- SIDEBAR -->
-        <div class="sidebar-menu hidden-xs hidden-sm">
-            <div class="top-section">
-                <div class="profile-image">
-                    <img src="img/profile.jpg" alt="Volton">
-                </div>                                   
-                <h3 class="profile-title">Ali Karimi</h3>
-                <p class="profile-description">Computer Science MS.c Student</br> <a href="https://ut.ac.ir/en">University of Tehran</a>
-				</br> | <a href="https://ut.ac.ir/en">CV</a> |</p>
-            </div> <!-- top-section -->
-            <div class="main-navigation">
-                <ul class="navigation">
-                    <li><a href="#top"><i class="fa fa-globe"></i>Welcome</a></li>
-                    <li><a href="#about"><i class="fa fa-pencil"></i>About Me</a></li>
-					<li><a href="#education"><i class="fa fa-university"></i>Education</a></li>
-					<li><a href="#experience"><i class="fa fa-laptop"></i>Expericence</a></li>
-					<li><a href="#teaching"><i class="fa fa-graduation-cap"></i>Teaching</a></li>
-					<li><a href="#publication"><i class="fa fa-newspaper-o"></i>Publication</a></li>
-                    <li><a href="#projects"><i class="fa fa-paperclip"></i>Projects</a></li>
-                    <li><a href="#honors"><i class="fa fa-trophy"></i>Honors and Awards</a></li>
-					<li><a href="#skills"><i class="fa fa-wrench"></i>Skills</a></li>
-                </ul>
-            </div> <!-- .main-navigation -->
-            <div class="social-icons">
-                <ul>
-                    <li><a href="https://alikarimi120.github.io"><i class="fa fa-user"></i></a></li>	
-                    <li><a href="alikarimi120@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/alikarimi120"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/alikarimi120"><i class="fa fa-github"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                </ul>
-            </div> <!-- .social-icons -->
-        </div> <!-- .sidebar-menu -->
-        
-
-        <div class="banner-bg" id="top">
-            <div class="banner-overlay"></div>
-            <div class="welcome-text">
-				
-                <h2>Ali Karimi Personal Page (Under construction)</h2>
-                <h5>Machine Learning Enginner</h5>
-            </div>
-        </div>
-
-        <!-- MAIN CONTENT -->
-        <div class="main-content">
-            <div class="fluid-container">
-
-                <div class="content-wrapper2">
-                
-                    <!-- ABOUT -->
-                    <div class="page-section" id="about">
-                        <div class="col-md-12">
-						<div class="title-container" ><h2><img src="img/About Me_logo.jpeg" alt="About Me" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>ABOUT ME</b></h2></div>
-						<p>
-						</br><font size="4"><font size="6">I</font>am currently a second-year MS.c student at the Department of Electrical and Computer Engineering, University of Tehran (UT) where I am a member of the Multimedia Processing Laboratory (MPL), advised by Prof. Mohammad Ghanbari. my research involves machine vision, deep learning, and neural networks.
-						</br>
-						</br><font size="4">Prior to MPL, I finished my BSc in Computer Engineering at the Department of Computer Engineering, Bu-Ali Sina University, in August 2018. I tried to use my bachelor's to build a solid bedrock for my future research. So in addition to taking many optional graduate-level courses on math and computer science. I spent a year as a Research Assistant at the Computer Networks Laboratory at the Bu-Ali Sina University where I completed my thesis on Evaluating and Improving the LoRa Protocol performance.</font>
-						</p>
-					<br/>
-					<br/>
-					<br/>
-					<div style="width:100%;">
-					<span class="fade-effect1"></span>
-					<br/>
-					<br/>
-					<br/>
-
-                    </div> <!-- #about -->
-					
-
-                    </div>
-
-					<!-- #education -->
-					
-                    <div class="page-section" id="education">
-                        <div class="col-md-10">
-							<div class="title-container" ><h2><img src="img/Edication_logo.jpeg" alt="Education" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>EDUCATION</b></h2></div>
-							<br/>
-							<br/>
-							
-							<div class="container">
-								<div class="row">
-									<div class="col-md-11">
-										<div class="main-timeline">
-											<div class="timeline">
-												<div class="timeline-icon"><i class="fa fa-university"></i></div>
-												<span class="year">2018 - Present</span>
-												<div class="timeline-content">
-													<h5 class="title">Computer Enginnering MS.c Student</h5>
-													<p class="description">
-														School of Electrical and Computer Eng, University of Tehran</br>
-														Ranked first in IT engineering department</br>
-														Cumulative GPA 4/4 (19.23/20 )
-													</p>
-												</div>
-											</div>
-											<div class="timeline">
-												<div class="timeline-icon"><i class="fa fa-graduation-cap"></i></div>
-												<span class="year">2014 - 2018</span>
-												<div class="timeline-content">
-													<h5 class="title">BSc - Computer Enginnering (Software Enginnering)</h5>
-													<p class="description">
-														Department of Computer Engineering, Bu-Ali Sina University</br>
-														Ranked first in CE department</br>
-														Cumulative GPA 3.62/4 (18.30/20)</br>
-														Last 2 years' GPA 4/4 (19.08/20)</br>
-														</p>
-												</div>
-											</div>
-											<div class="timeline">
-												<div class="timeline-icon"><i class="fa fa-schoole"></i></div>
-												<span class="year">2015</span>
-												<div class="timeline-content">
-													<h5 class="title">Diploma - Mathematics and Physics</h5>
-													<p class="description">
-														Cumulative GPA 4/4 (19.47/20)</br>
-													</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-					<br/>
-					<br/>
-					<div style="width:100%;">
-					<span class="fade-effect1"></span>
-							</div>
-
-                    </div> <!-- #education -->
-					<!-- #experience -->
-					
-                    <div class="page-section" id="experience">
-                        <div class="col-md-10">
-							<div class="title-container" ><h2><img src="img/Experience_logo.jpeg" alt="Experience" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>EXPERICENCE</b></h2></div>
-							<br/>
-							<br/>
-							
-						<div class="container">
-							<div class="row">
-								<div class="col-md-11">
-									<div class="main-timeline1">
-										<div class="timeline1">
-											<span class="icon fa fa-globe"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Research Assistant (2019 - 2020)</h3></br>
-												<p class="description">
-													Iran's National Elites Foundation</br>
-													Topics: Machine Vision, Deep Learning
-												</p>
-											</a>
-										</div>
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Research Assistant (2018 - 2020)</h3></br>
-												<p class="description">
-													Multimedia Processing Laboratory,School of Electrical and Computer Engineering, University of Tehran</br>
-													Topics: Multimedia, Video Processing, Deep Learning
-												</p>
-											</a>
-										</div>
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Research Assistant (2017,2018)</h3></br>
-												<p class="description">
-													Computer Networks Laboratory,Department of Computer Engineering, Bu-Ali Sina University </br>
-												</p>
-											</a>
-										</div>		
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Chief Judge (Nov 2018)</h3></br>
-												<p class="description">
-													Second programming contest West Region Iran - Hamedan Site
-												</p>
-											</a>
-										</div>		
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Problem Setter and Judge</h3></br>
-												<p class="description">
-													Bu-Ali Sina University's Local Weekly ACM Programming Contests.
-												</p>
-											</a>
-										</div>		
-					
-									</div>
-								</div>
-							</div>
-					<br/>
-					<br/>
-					<div style="width:100%;">
-					<span class="fade-effect1"></span>
-						</div>
-
-                    </div> <!-- #experience --> 
-					<!-- #teaching -->
-					
-                    <div class="page-section" id="teaching">
-                        <div class="col-md-10">
-							<div class="title-container" ><h2><img src="img/TeachingAssistantship_logo.jpeg" alt="Teaching" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>TEACHING</b></h2></div>
-							<br/>
-							<br/>
-							
-						<div class="container" align="center">
-							<div class="row">
-							<div class="col-md-10">
-																    <!--Table-->
-								<table class="table table-striped w-auto" style="overflow-x:auto;">
-
-								  <!--Table head-->
-								  <thead>
-									<tr>
-									  <th>#</th>
-									  <th>Course </th>
-									  <th>Role</th>
-									  <th>Professor</th>
-									  <th>Semester</th>
-									</tr>
-								  </thead>
-								  <!--Table head-->
-
-								  <!--Table body-->
-								  <tbody>
-									<tr class="table-info">
-									  <th scope="row">1</th>
-									  <td>Machine Vision</td>
-									  <td>TA</td>
-									  <td>Prof</td>
-									  <td>Winter 2020</td>
-									</tr>
-									<tr>
-									  <th scope="row">2</th>
-									  <td>Neural Networks</td>
-									  <td>TA</td>
-									  <td>Prof</td>
-									  <td>Winter 2020</td>
-									</tr>
-									<tr class="table-info">
-									  <th scope="row">3</th>
-									  <td>Big Data</td>
-									  <td>TA</td>
-									  <td>Prof</td>
-									  <td>Winter 2020</td>
-									</tr>
-									<tr>
-									  <th scope="row">4</th>
-									  <td>Multimedia</td>
-									  <td>Chief-TA</td>
-									  <td>Prof</td>
-									  <td>Winter 2020</td>
-									</tr>
-
-								  </tbody>
-								  <!--Table body-->
-
-
-								</table>
-								<!--Table-->
-								</div>
-								</div>
-							<br/>
-							<br/>
-							<div style="width:100%;">
-							<span class="fade-effect1"></span>
-						</div>
-                    </div> <!-- #honors --> 
-					<!-- #publication -->
-					
-                    <div class="page-section" id="publication">
-                        <div class="col-md-10">
-							<div class="title-container" ><h2><img src="img/Publication_logo.jpeg" alt="Publication" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>PUBLICATION</b></h2></div>
-							<br/>
-							<br/>
-							
-						<div class="container">
-							<div class="row">
-								<div class="col-md-11">
-									<div class="main-timeline2">
-										<div class="timeline2">
-											<span class="timeline2-icon"></span>
-											<div class="timeline2-content">
-												<h3 class="title">Paper (Computer Networks)</h3>
-												<p class="description">
-													<b>A.Karimi</b>, H.Abdoli, M.Nassiri," Evaluating and Improving the LoRa Protocol performance by Selecting the appropriate configure " 2019 24th National Computer Conference, Computer Society of Iran (CSICC)
-												</p>
-											</div>
-											<div class="icon">
-												<i class="fa fa-globe"></i>
-												<span class="year">Sep 2020</span>
-											</div>
-										</div>
-										<div class="timeline2">
-											<span class="timeline2-icon"></span>
-											<div class="timeline2-content">
-												<h3 class="title">Book (Patent)</h3>
-												<p class="description">
-													<b>A.Karimi</b>, H.Abdoli, M.Nassiri," Evaluating and Improving the LoRa Protocol performance by Selecting the appropriate configure " 2019 24th National Computer Conference, Computer Society of Iran (CSICC)
-												</p>
-											</div>
-											<div class="icon">
-												<i class="fa fa-rocket"></i>
-												<span class="year">Sep 2020</span>
-											</div>
-										</div>
-										<div class="timeline2">
-											<span class="timeline2-icon"></span>
-											<div class="timeline2-content">
-												<h3 class="title">Lorem ipsum</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere.
-												</p>
-											</div>
-											<div class="icon">
-												<i class="fa fa-rocket"></i>
-												<span class="year">2016</span>
-											</div>
-										</div>
-										<div class="timeline2">
-											<span class="timeline2-icon"></span>
-											<div class="timeline2-content">
-												<h3 class="title">Lorem ipsum</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere.
-												</p>
-											</div>
-											<div class="icon">
-												<i class="fa fa-rocket"></i>
-												<span class="year">2016</span>
-											</div>
-										</div>										
-									</div>
-								</div>
-							</div>
-							<br/>
-							<br/>
-							<div style="width:100%;">
-							<span class="fade-effect1"></span>
-						</div>
-                    </div> <!-- #honors --> 
-					
-					<!-- #projects -->
-					
-                    <div class="page-section" id="projects">
-                        <div class="col-md-10">
-							<div class="title-container" ><h2><img src="img/Projects_logo.jpeg" alt="Project" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>SELECTED PROJECTS</b></h2></div>
-							<br/>
-							<br/>
-							
-						<div class="container">
-							<div class="row">
-								<div class="col-md-10">
-									<div class="main-timeline1">
-										<div class="timeline1">
-											<span class="icon fa fa-globe"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Designer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Developer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Developer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>		
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Developer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>		
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Developer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>		
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Developer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>						
-									</div>
-								</div>
-							</div>
-							<br/>
-							<br/>
-							<div style="width:100%;">
-							<span class="fade-effect1"></span>
-						</div>
-                    </div> <!-- #honors --> 
-
-					<!-- #honors -->
-					
-                    <div class="page-section" id="honors">
-					
-                        <div class="col-md-10">
-
-							<div class="title-container" ><h1><img src="img/Honors and Awards_logo.jpeg" alt="Experience" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>HONORS & AWARDS</b></h1></div>
-							
-							<br/>
-							<br/>
-							
-						<div class="container">
-							<div class="row">
-								<div class="col-md-10">
-								
-									<div class="main-timeline1">
-										<div class="timeline1">
-											<span class="icon fa fa-globe"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Designer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Developer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Developer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>		
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Developer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>		
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Developer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>		
-										<div class="timeline1">
-											<span class="icon fa fa-rocket"></span>
-											<a href="#" class="timeline1-content">
-												<h3 class="title">Web Developer</h3>
-												<p class="description">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
-												</p>
-											</a>
-										</div>						
-									</div>
-								</div>
-							</div>
-							<br/>
-							<br/>
-							<div style="width:100%;">
-							<span class="fade-effect1"></span>
-						</div>
-                    </div> <!-- #honors --> 
-
-                    <!-- skills -->
-                    <div class="page-section" id="skills">
-                        <div class="col-md-11">
-						<div class="title-container" ><h2><img src="img/Skill_logo.jpeg" alt="Education" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>SKILLS</b></h2></div>
-						</br></br></br>
-							<div class="container">
-								<div class="row">
-								<h3 class="progress-title">Technical Skills</h3>
-								</br>
-									<div class="col-md-5">
-										<h3 class="progress-title">HTML5 - 60%</h3>
-										<div class="progress">
-											<div class="progress-bar progress-bar-danger progress-bar-striped active" style="width:60%;"></div>
-										</div>
-										<h3 class="progress-title">CSS3 - 90%</h3>
-										<div class="progress">
-											<div class="progress-bar progress-bar-info progress-bar-striped active" style="width:90%;"></div>
-										</div>
-									</div>
-									<div class="col-md-5">
-										<h3 class="progress-title">HTML5 - 60%</h3>
-										<div class="progress">
-											<div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:60%;"></div>
-										</div>
-										<h3 class="progress-title">CSS3 - 90%</h3>
-										<div class="progress">
-											<div class="progress-bar progress-bar-success progress-bar-striped active" style="width:90%;"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-								</br>
-								<h3 class="progress-title">TOEFL</h3>
-								</br>
-									<div class="col-md-5">
-										<h3 class="progress-title">Reading - 27</h3>
-										<div class="progress">
-											<div class="progress-bar progress-bar-danger progress-bar-striped active" style="width:60%;"></div>
-										</div>
-										<h3 class="progress-title">Writing - 26</h3>
-										<div class="progress">
-											<div class="progress-bar progress-bar-info progress-bar-striped active" style="width:90%;"></div>
-										</div>
-									</div>
-									<div class="col-md-5">
-										<h3 class="progress-title">Listening - 25</h3>
-										<div class="progress">
-											<div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:60%;"></div>
-										</div>
-										<h3 class="progress-title">Speaking - 25</h3>
-										<div class="progress">
-											<div class="progress-bar progress-bar-success progress-bar-striped active" style="width:90%;"></div>
-										</div>
-									</div>
-								
-								</div>
-								<div class="row">
-								</br>
-								
-								<h3 class="progress-title">GRE</h3>
-								</br>
-								</br>
-									<div class="col-md-5">
-										<h3 class="progress-title">Verbal - 27</h3>
-										<div class="progress">
-											<div class="progress-bar progress-bar-danger progress-bar-striped active" style="width:60%;"></div>
-										</div>
-										<h3 class="progress-title">Quant - 26</h3>
-										<div class="progress">
-											<div class="progress-bar progress-bar-info progress-bar-striped active" style="width:90%;"></div>
-										</div>
-									</div>
-									<div class="col-md-5">
-										<h3 class="progress-title">Writing - 25</h3>
-										<div class="progress">
-											<div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:60%;"></div>
-										</div>
-									</div>
-
-								
-								</div>
-							</div>
-                    </div> <!-- #skills -->					
-
-
-
-
-                    <div class="row" id="footer">
-                        <div class="col-md-12 text-center">
-                            <p class="copyright-text">Copyright &copy; 2020 AliKarimi120.github.io</p>
-                        </div>
-                    </div>
-
+<div class="responsive-header visible-xs visible-sm wow fadeInUp" data-wow-delay="0.2s">
+	<div class="container wow fadeInUp" data-wow-delay="0.5s">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="top-section">
+					<div class="profile-image">
+						<img src="img/profile.jpg" alt="Volton">
 					</div>
+					<div class="profile-conten">
+						<h3 class="profile-title ">Ali Karimi</h3>
+						<p class="profile-description">Computer Science MS.c Student</p>
 					</div>
 				</div>
-		</div> <!-- #skills -->						
+			</div>
+		</div>
+		<a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
+		<div class="main-navigation responsive-menu">
+			<ul class="navigation">
+			<li><a href="#top"><i class="fa fa-globe"></i>Welcome</a></li>
+			<li><a href="#about"><i class="fa fa-pencil"></i>About Me</a></li>
+			<li><a href="#education"><i class="fa fa-university"></i>Education</a></li>
+			<li><a href="#experience"><i class="fa fa-laptop"></i>Expericence</a></li>
+			<li><a href="#teaching"><i class="fa fa-graduation-cap"></i>Teaching</a></li>
+			<li><a href="#publication"><i class="fa fa-newspaper-o"></i>Publication</a></li>
+			<li><a href="#projects"><i class="fa fa-paperclip"></i>Projects</a></li>
+			<li><a href="#honors"><i class="fa fa-trophy"></i>Honors and Awards</a></li>
+			<li><a href="#skills"><i class="fa fa-wrench"></i>Skills</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- SIDEBAR -->
+<div class="sidebar-menu hidden-xs hidden-sm">
+	<div class="top-section">
+
+		<div class="profile-image">
+			<img src="img/profile.jpg" alt="Volton">
+		</div>                                   
+		<h3 class="profile-title">Ali Karimi</h3>
+		<p class="profile-description">Computer Science MS.c Student</br> <a href="https://ut.ac.ir/en">University of Tehran</a>
+		</br> | <a href="https://ut.ac.ir/en">CV</a> |</p>
+	</div> <!-- top-section -->
+	<div class="main-navigation">
+		<ul class="navigation">
+			<li><a href="#top"><i class="fa fa-globe"></i>Welcome</a></li>
+			<li><a href="#about"><i class="fa fa-pencil"></i>About Me</a></li>
+			<li><a href="#education"><i class="fa fa-university"></i>Education</a></li>
+			<li><a href="#experience"><i class="fa fa-laptop"></i>Expericence</a></li>
+			<li><a href="#teaching"><i class="fa fa-graduation-cap"></i>Teaching</a></li>
+			<li><a href="#publication"><i class="fa fa-newspaper-o"></i>Publication</a></li>
+			<li><a href="#projects"><i class="fa fa-paperclip"></i>Projects</a></li>
+			<li><a href="#honors"><i class="fa fa-trophy"></i>Honors and Awards</a></li>
+			<li><a href="#skills"><i class="fa fa-wrench"></i>Skills</a></li>
+		</ul>
+	</div> <!-- .main-navigation -->
+	<div class="social-icons">
+		<ul>
+			<li><a href="https://alikarimi120.github.io"><i class="fa fa-user"></i></a></li>	
+			<li><a href="alikarimi120@gmail.com"><i class="fa fa-envelope"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/alikarimi120"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://github.com/alikarimi120"><i class="fa fa-github"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+		</ul>
+	</div> <!-- .social-icons -->
+</div> <!-- .sidebar-menu -->
 
 
+<div class="banner-bg wow" data-wow-delay="0.0002s" id="top">
+	<div class="banner-overlay"></div>
+	<div class="welcome-text wow fadeInUp" data-wow-delay="0.1s">
+		
+		<h2>Ali Karimi Personal Page (Under construction)</h2>
+		<h5>Machine Learning Enginner</h5>
+	</div>
+</div>
+
+
+<!-- MAIN CONTENT -->
+<div class="main-content">
+
+
+<div class="fluid-container wow fadeInUp" data-wow-delay="0.2s">
+	<div class="content-wrapper2">
+		<!-- ABOUT -->
+		<div class="page-section" id="about">
+			<div class="col-md-12">
+			<div class="title-container" ><h2><img src="img/About Me_logo.jpeg" alt="About Me" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>ABOUT ME</b></h2></div>
+			<p>
+			</br><font size="4"><font size="6">I</font>am currently a second-year MS.c student at the Department of Electrical and Computer Engineering, University of Tehran (UT) where I am a member of the Multimedia Processing Laboratory (MPL), advised by Prof. Mohammad Ghanbari. my research involves machine vision, deep learning, and neural networks.
+			</br>
+			</br><font size="4">Prior to MPL, I finished my BSc in Computer Engineering at the Department of Computer Engineering, Bu-Ali Sina University, in August 2018. I tried to use my bachelor's to build a solid bedrock for my future research. So in addition to taking many optional graduate-level courses on math and computer science. I spent a year as a Research Assistant at the Computer Networks Laboratory at the Bu-Ali Sina University where I completed my thesis on Evaluating and Improving the LoRa Protocol performance.</font>
+			</p>
+		<br/>
+		<br/>
+		<span class="fade-effect1"></span>
+		<br/>
+		<br/>
+		<div style="width:100%;"></div>
+
+</div> <!-- #about -->
+</div>
+</div>
+</div>
+<!-- #education -->
+
+<div class="page-section" id="education">
+	<div class="col-md-10">
+		<div class="title-container" ><h2><img src="img/Edication_logo.jpeg" alt="Education" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>EDUCATION</b></h2></div>
+		<br/>
+		<br/>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-11">
+					<div class="main-timeline">
+						<div class="timeline wow fadeInUp" data-wow-delay="0.05s">
+							<div class="timeline-icon"><i class="fa fa-university"></i></div>
+							<span class="year">2018 - Present</span>
+							<div class="timeline-content">
+								<h5 class="title">Computer Enginnering MS.c Student</h5>
+								<p class="description">
+									School of Electrical and Computer Eng, University of Tehran</br>
+									Ranked first in IT engineering department</br>
+									Cumulative GPA 4/4 (19.23/20 )
+								</p>
+							</div>
+						</div>
+						<div class="timeline wow fadeInUp" data-wow-delay="0.10s">
+							<div class="timeline-icon"><i class="fa fa-graduation-cap"></i></div>
+							<span class="year">2014 - 2018</span>
+							<div class="timeline-content">
+								<h5 class="title">BSc - Computer Enginnering (Software Enginnering)</h5>
+								<p class="description">
+									Department of Computer Engineering, Bu-Ali Sina University</br>
+									Ranked first in CE department</br>
+									Cumulative GPA 3.62/4 (18.30/20)</br>
+									Last 2 years' GPA 4/4 (19.08/20)</br>
+									</p>
+							</div>
+						</div>
+						<div class="timeline wow fadeInUp" data-wow-delay="0.15s">
+							<div class="timeline-icon"><i class="fa fa-graduation-cap"></i></div>
+							<span class="year">2015</span>
+							<div class="timeline-content">
+								<h5 class="title">Diploma - Mathematics and Physics</h5>
+								<p class="description">
+									Cumulative GPA 4/4 (19.47/20)</br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<br/>
+<br/>
+<div style="width:100%;"></div>
+<span class="fade-effect1"></span>
+<br/>
+<br/>
+</div>
+</div> <!-- #education -->
+
+<!-- #experience -->
+
+<div class="page-section" id="experience">
+	<div class="col-md-10">
+		<div class="title-container" ><h2><img src="img/Experience_logo.jpeg" alt="Experience" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>EXPERICENCE</b></h2></div>
+		<br/>
+		<br/>
+		
+	<div class="container">
+		<div class="row">
+			<div class="col-md-11">
+				<div class="main-timeline1">
+					<div class="timeline1 wow fadeInUp" data-wow-delay="0.05s">
+						<span class="icon fa fa-globe"></span>
+						<a href="#" class="timeline1-content">
+							<h3 class="title">Research Assistant (2019 - 2020)</h3></br>
+							<p class="description">
+								Iran's National Elites Foundation</br>
+								Topics: Machine Vision, Deep Learning
+							</p>
+						</a>
+					</div>
+					<div class="timeline1 wow fadeInUp" data-wow-delay="0.06s">
+						<span class="icon fa fa-rocket"></span>
+						<a href="#" class="timeline1-content">
+							<h3 class="title">Research Assistant (2018 - 2020)</h3></br>
+							<p class="description">
+								Multimedia Processing Laboratory,School of Electrical and Computer Engineering, University of Tehran</br>
+								Topics: Multimedia, Video Processing, Deep Learning
+							</p>
+						</a>
+					</div>
+					<div class="timeline1 wow fadeInUp" data-wow-delay="0.07s">
+						<span class="icon fa fa-rocket"></span>
+						<a href="#" class="timeline1-content">
+							<h3 class="title">Research Assistant (2017,2018)</h3></br>
+							<p class="description">
+								Computer Networks Laboratory,Department of Computer Engineering, Bu-Ali Sina University </br>
+							</p>
+						</a>
+					</div>		
+					<div class="timeline1 wow fadeInUp" data-wow-delay="0.08s">
+						<span class="icon fa fa-rocket"></span>
+						<a href="#" class="timeline1-content">
+							<h3 class="title">Chief Judge (Nov 2018)</h3></br>
+							<p class="description">
+								Second programming contest West Region Iran - Hamedan Site
+							</p>
+						</a>
+					</div>		
+					<div class="timeline1 wow fadeInUp" data-wow-delay="0.09s">
+						<span class="icon fa fa-rocket"></span>
+						<a href="#" class="timeline1-content">
+							<h3 class="title">Problem Setter and Judge</h3></br>
+							<p class="description">
+								Bu-Ali Sina University's Local Weekly ACM Programming Contests.
+							</p>
+						</a>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</div>	
+<br/>
+<br/>
+<div style="width:100%;"></div>
+<span class="fade-effect1"></span>
+<br/>
+<br/>
+</div>
+</div> <!-- #experience --> 
+
+
+
+
+<!-- #teaching -->
+
+<div class="page-section" id="teaching">
+	<div class="col-md-10">
+		<div class="title-container wow fadeInUp" data-wow-delay="0.05s"><h2><img src="img/TeachingAssistantship_logo.jpeg" alt="Teaching" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>TEACHING</b></h2></div>
+		<br/>
+		<br/>
+		
+	<div class="container wow fadeInUp" data-wow-delay="0.05s" align="center">
+		<div class="row">
+		<div class="col-md-11">
+			<!--Table-->
+			<table class="table table-striped w-auto" style="overflow-x:auto;">
+			  <!--Table head-->
+			  <thead>
+				<tr>
+				  <th>#</th>
+				  <th>Course </th>
+				  <th>Role</th>
+				  <th>Professor</th>
+				  <th>Semester</th>
+				</tr>
+			  </thead>
+			  <!--Table head-->
+			  <!--Table body-->
+			  <tbody>
+				<tr class="table-info">
+				  <th scope="row">1</th>
+				  <td>Machine Vision</td>
+				  <td>TA</td>
+				  <td>Prof</td>
+				  <td>Winter 2020</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Neural Networks</td>
+				  <td>TA</td>
+				  <td>Prof</td>
+				  <td>Winter 2020</td>
+				</tr>
+				<tr class="table-info">
+				  <th scope="row">3</th>
+				  <td>Big Data</td>
+				  <td>TA</td>
+				  <td>Prof</td>
+				  <td>Winter 2020</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>Multimedia</td>
+				  <td>Chief-TA</td>
+				  <td>Prof</td>
+				  <td>Winter 2020</td>
+				</tr>
+			  </tbody>
+			  <!--Table body-->
+			</table>
+			<!--Table-->
+		</div>
+		</div>
+	</div>
+<br/>
+<br/>
+<div style="width:100%;"></div>
+<span class="fade-effect1"></span>
+<br/>
+<br/>
+
+</div>
+</div> <!-- #teaching --> 
+
+
+
+
+<!-- #publication -->
+
+<div class="page-section" id="publication">
+	<div class="col-md-10">
+		<div class="title-container" ><h2><img src="img/Publication_logo.jpeg" alt="Publication" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>PUBLICATION</b></h2></div>
+		<br/>
+		<br/>
+		
+	<div class="container ">
+		<div class="row">
+			<div class="col-md-11">
+				<div class="main-timeline2">
+					<div class="timeline2 wow fadeInUp" data-wow-delay="0.05s">
+						<span class="timeline2-icon"></span>
+						<div class="timeline2-content">
+							<h3 class="title">Paper (Computer Networks)</h3>
+							<p class="description">
+								<b>A.Karimi</b>, H.Abdoli, M.Nassiri," Evaluating and Improving the LoRa Protocol performance by Selecting the appropriate configure " 2019 24th National Computer Conference, Computer Society of Iran (CSICC)
+							</p>
+						</div>
+						<div class="icon">
+							<i class="fa fa-globe"></i>
+							<span class="year">Sep 2020</span>
+						</div>
+					</div>
+					<div class="timeline2 wow fadeInUp" data-wow-delay="0.06s">
+						<span class="timeline2-icon"></span>
+						<div class="timeline2-content">
+							<h3 class="title">Book (Patent)</h3>
+							<p class="description">
+								<b>A.Karimi</b>, H.Abdoli, M.Nassiri," Evaluating and Improving the LoRa Protocol performance by Selecting the appropriate configure " 2019 24th National Computer Conference, Computer Society of Iran (CSICC)
+							</p>
+						</div>
+						<div class="icon">
+							<i class="fa fa-rocket"></i>
+							<span class="year">Sep 2020</span>
+						</div>
+					</div>
+					<div class="timeline2 wow fadeInUp" data-wow-delay="0.07s">
+						<span class="timeline2-icon"></span>
+						<div class="timeline2-content">
+							<h3 class="title">Lorem ipsum</h3>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere.
+							</p>
+						</div>
+						<div class="icon">
+							<i class="fa fa-rocket"></i>
+							<span class="year">2016</span>
+						</div>
+					</div>
+					<div class="timeline2 wow fadeInUp" data-wow-delay="0.08s">
+						<span class="timeline2-icon"></span>
+						<div class="timeline2-content">
+							<h3 class="title">Lorem ipsum</h3>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere.
+							</p>
+						</div>
+						<div class="icon">
+							<i class="fa fa-rocket"></i>
+							<span class="year">2016</span>
+						</div>
+					</div>										
+				</div>
+			</div>
+		</div>
+	</div>
+<br/>
+<br/>
+<div style="width:100%;"></div>
+<span class="fade-effect1"></span>
+<br/>
+<br/>
+</div>
+</div> <!-- #Publication --> 
+					
+
+
+<!-- #projects -->
+
+<div class="page-section" id="projects">
+	<div class="col-md-10">
+		<div class="title-container" ><h2><img src="img/Projects_logo.jpeg" alt="Project" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>SELECTED PROJECTS</b></h2></div>
+		<br/>
+		<br/>
+		
+	<div class="container">
+		<div class="row">
+			<div class="col-md-11">
+				<div class="main-timeline1">
+					<div class="timeline1 wow fadeInUp" data-wow-delay="0.05s">
+						<span class="icon fa fa-globe"></span>
+						<a href="#" class="timeline1-content">
+							<h3 class="title">Web Designer</h3>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
+							</p>
+						</a>
+					</div>
+					<div class="timeline1 wow fadeInUp" data-wow-delay="0.06s">
+						<span class="icon fa fa-rocket"></span>
+						<a href="#" class="timeline1-content">
+							<h3 class="title">Web Developer</h3>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
+							</p>
+						</a>
+					</div>
+					<div class="timeline1 wow fadeInUp" data-wow-delay="0.07s">
+						<span class="icon fa fa-rocket"></span>
+						<a href="#" class="timeline1-content">
+							<h3 class="title">Web Developer</h3>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
+							</p>
+						</a>
+					</div>		
+					<div class="timeline1 wow fadeInUp" data-wow-delay="0.08s">
+						<span class="icon fa fa-rocket"></span>
+						<a href="#" class="timeline1-content">
+							<h3 class="title">Web Developer</h3>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
+							</p>
+						</a>
+					</div>		
+					<div class="timeline1 wow fadeInUp" data-wow-delay="0.09s">
+						<span class="icon fa fa-rocket"></span>
+						<a href="#" class="timeline1-content">
+							<h3 class="title">Web Developer</h3>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
+							</p>
+						</a>
+					</div>		
+					<div class="timeline1 wow fadeInUp" data-wow-delay="0.10s">
+						<span class="icon fa fa-rocket"></span>
+						<a href="#" class="timeline1-content">
+							<h3 class="title">Web Developer</h3>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
+							</p>
+						</a>
+					</div>						
+				</div>
+			</div>
+		</div>
+	</div>
+<br/>
+<br/>
+<div style="width:100%;"></div>
+<span class="fade-effect1"></span>
+<br/>
+<br/>
+</div>
+</div> <!-- #Projects --> 		
+
+
+<!-- #honors -->
+<div class="page-section" id="honors">
+	<div class="col-md-10">
+		<div class="title-container" ><h1><img src="img/Honors and Awards_logo.jpeg" alt="Experience" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>HONORS & AWARDS</b></h1></div>
+		<br/>
+		<br/>
+		
+	<div class="container">
+		<div class="row">
+			<div class="col-md-11">
+				<div class="main-timeline2">
+					<div class="timeline2 wow fadeInUp" data-wow-delay="0.05s">
+						<span class="timeline2-icon"></span>
+						<div class="timeline2-content">
+							<h3 class="title">Paper (Computer Networks)</h3>
+							<p class="description">
+								<b>A.Karimi</b>, H.Abdoli, M.Nassiri," Evaluating and Improving the LoRa Protocol performance by Selecting the appropriate configure " 2019 24th National Computer Conference, Computer Society of Iran (CSICC)
+							</p>
+						</div>
+						<div class="icon">
+							<i class="fa fa-globe"></i>
+							<span class="year">Sep 2020</span>
+						</div>
+					</div>
+					<div class="timeline2 wow fadeInUp" data-wow-delay="0.06s">
+						<span class="timeline2-icon"></span>
+						<div class="timeline2-content">
+							<h3 class="title">Book (Patent)</h3>
+							<p class="description">
+								<b>A.Karimi</b>, H.Abdoli, M.Nassiri," Evaluating and Improving the LoRa Protocol performance by Selecting the appropriate configure " 2019 24th National Computer Conference, Computer Society of Iran (CSICC)
+							</p>
+						</div>
+						<div class="icon">
+							<i class="fa fa-rocket"></i>
+							<span class="year">Sep 2020</span>
+						</div>
+					</div>
+					<div class="timeline2 wow fadeInUp" data-wow-delay="0.07s">
+						<span class="timeline2-icon"></span>
+						<div class="timeline2-content">
+							<h3 class="title">Lorem ipsum</h3>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere.
+							</p>
+						</div>
+						<div class="icon">
+							<i class="fa fa-rocket"></i>
+							<span class="year">2016</span>
+						</div>
+					</div>
+					<div class="timeline2 wow fadeInUp" data-wow-delay="0.08s">
+						<span class="timeline2-icon"></span>
+						<div class="timeline2-content">
+							<h3 class="title">Lorem ipsum</h3>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere.
+							</p>
+						</div>
+						<div class="icon">
+							<i class="fa fa-rocket"></i>
+							<span class="year">2016</span>
+						</div>
+					</div>										
+				</div>
+			</div>
+		</div>
+	</div>
+<br/>
+<br/>
+<div style="width:100%;"></div>
+<span class="fade-effect1"></span>
+<br/>
+<br/>
+</div>
+</div> <!-- #honors --> 
+			
+<!-- skills -->
+<div class="page-section" id="skills">
+	<div class="col-md-10">
+	<div class="title-container" ><h2><img src="img/Skill_logo.jpeg" alt="Education" width="62" height="62" style="vertical-align:middle;margin:0px 15px"><font size="5"><b>SKILLS</b></h2></div>
+	</br></br></br>
+		<div class="container">
+			<div class="row wow fadeInUp" data-wow-delay="0.05s">	
+			<h3 class="progress-title">Technical Skills</h3>
+			</br>
+				<div class="col-md-5">
+					<h3 class="progress-title">HTML5 - 60%</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger progress-bar-striped active" style="width:60%;"></div>
+					</div>
+					<h3 class="progress-title">CSS3 - 90%</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-info progress-bar-striped active" style="width:90%;"></div>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<h3 class="progress-title">HTML5 - 60%</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:60%;"></div>
+					</div>
+					<h3 class="progress-title">CSS3 - 90%</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" style="width:90%;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row wow fadeInUp" data-wow-delay="0.05s">	
+			</br>
+			<h3 class="progress-title">TOEFL</h3>
+			</br>
+				<div class="col-md-5">
+					<h3 class="progress-title">Reading - 27</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger progress-bar-striped active" style="width:60%;"></div>
+					</div>
+					<h3 class="progress-title">Writing - 26</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-info progress-bar-striped active" style="width:90%;"></div>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<h3 class="progress-title">Listening - 25</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:60%;"></div>
+					</div>
+					<h3 class="progress-title">Speaking - 25</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" style="width:90%;"></div>
+					</div>
+				</div>
+			
+			</div>
+			<div class="row wow fadeInUp" data-wow-delay="0.05s">	
+			</br>
+			<h3 class="progress-title">GRE</h3>
+			</br>
+			</br>
+				<div class="col-md-5">
+					<h3 class="progress-title">Verbal - 27</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger progress-bar-striped active" style="width:60%;"></div>
+					</div>
+					<h3 class="progress-title">Quant - 26</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-info progress-bar-striped active" style="width:90%;"></div>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<h3 class="progress-title">Writing - 25</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:60%;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+
+
+
+
+</div> <!-- #skills -->
+<div class="row" id="footer">
+	<div class="col-md-12 text-center">
+		<p class="copyright-text">Copyright &copy; 2020 AliKarimi120.github.io</p>
+	</div>
+</div>
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/min/plugins.min.js"></script>
         <script src="js/min/main.min.js"></script>
+		<!-- JavaScript Libraries -->
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/jquery/jquery-migrate.min.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="lib/easing/easing.min.js"></script>
+		<script src="lib/superfish/hoverIntent.js"></script>
+		<script src="lib/superfish/superfish.min.js"></script>
+		<script src="lib/wow/wow.min.js"></script>
+		<script src="lib/waypoints/waypoints.min.js"></script>
+		<script src="lib/counterup/counterup.min.js"></script>
+		<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+		<script src="lib/isotope/isotope.pkgd.min.js"></script>
+		<script src="lib/lightbox/js/lightbox.min.js"></script>
+		<script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+		<!-- Contact Form JavaScript File -->
+		<script src="contactform/contactform.js"></script>
 
-
+		<!-- Template Main Javascript File -->
+		<script src="js/main.js"></script>
+</div>				
     </body>
 </html>
